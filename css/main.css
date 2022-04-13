@@ -215,6 +215,11 @@ ul.menu li.noclick:hover {
 	cursor: default;
 }
 
+ul.menu li.home:hover {
+	color: white;
+	background-color: red;
+}
+
 ul.menu li.active {
 	background-color: white;
 	color: black;
