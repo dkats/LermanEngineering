@@ -69,7 +69,8 @@ footer {
 	fill: #000066;
 }
 
-h1 { 
+h1 {
+	font-variant: small-caps;
 	display: block;
 	font-size: 2em;
 	margin-top: 0.67em;
@@ -80,6 +81,7 @@ h1 {
 }
 
 h2 {
+	font-variant: small-caps;
 	display: block;
 	font-size: 1.5em;
 	margin-top: 0.83em;
