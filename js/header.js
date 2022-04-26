@@ -7,7 +7,7 @@ function header(level = 0) {
 
 	document.write('<header>');
 	document.write('<ul class="menu">');
-	document.write('	<li class="home" onclick="window.open(\'index.html\',\'_self\');">Lerman Engineering</li>');
+	document.write('	<li class="home lerman" onclick="window.open(\'index.html\',\'_self\');"><img src="files/logo.png" class="logo-header"/>Lerman Engineering</li>');
 	document.write('	<li class="dropdown noclick"');
 		document.write('		<span id="header_work">Work Experience</span>');
 		document.write('		<div class="droplist">');

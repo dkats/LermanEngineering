@@ -17,6 +17,11 @@ header {
 	padding: 0px 5%;
 }
 
+.lerman {
+	font-family: "Gill Sans", "Optima", "Helvetica Neue", "Helvetica", "Arial";
+	font-size: 14pt;
+}
+
 li.dropdown {
 	display: inline-block;
 }
@@ -215,6 +220,12 @@ ul.menu li.noclick:hover {
 	cursor: default;
 }
 
+ul.menu li.home {
+	padding: 10px 16px;
+	font-size: 17pt;
+	font-weight: normal;
+}
+
 ul.menu li.home:hover {
 	color: white;
 	background-color: red;
@@ -282,6 +293,22 @@ article {
 	background-color: white;
 	/*border-right: 3px solid #edf1ff;*/
 	/*border-left: 3px solid #edf1ff;*/
+}
+
+.logo-bottom {
+	margin-top: 36px;
+	background-image:url(../files/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 81px;
+	height: 96px;
+	display: inline-block;
+}
+
+.logo-header {
+	width: 18px;
+	height: 100%;
+	padding-right: 4px;
 }
 
 #main_logo {
