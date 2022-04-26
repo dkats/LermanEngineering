@@ -324,6 +324,10 @@ article {
 	margin: 24pt 0;
 }
 
+.wrap img {
+	max-width: 750px;
+}
+
 .caption {
 	font-weight: bold;
 	text-align: center;
